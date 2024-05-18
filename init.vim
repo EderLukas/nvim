@@ -8,5 +8,5 @@
 
 lua require('lua.plugins')
 lua require('lua.remap')
-lua require('lua.theme_cyberdream')
+lua require('lua.theme_onedark')
 
