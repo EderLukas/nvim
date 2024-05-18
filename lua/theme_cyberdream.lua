@@ -12,7 +12,7 @@ require("cyberdream").setup({
     borderless_telescope = true,
 
     -- Set terminal colors used in `:terminal`
-    terminal_colors = false,
+    terminal_colors = true,
 
     theme = {
         variant = "default", -- use "light" for the light variant
@@ -22,6 +22,7 @@ require("cyberdream").setup({
             -- For a list of colors see `lua/cyberdream/colours.lua`
             -- Example:
             bgHighlight = "#163057",
+						
         },
     },
 })
