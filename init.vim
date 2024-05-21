@@ -6,7 +6,7 @@
 :set softtabstop=2
 :set mouse=a
 
-lua require('lua.plugins')
-lua require('lua.remap')
-lua require('lua.theme_onedark')
+lua require('plugins')
+lua require('remap')
+lua require('theme_onedark')
 

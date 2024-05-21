@@ -140,6 +140,11 @@ _G.packer_plugins = {
     path = "/home/lukaseder/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-closer"] = {
+    loaded = true,
+    path = "/home/lukaseder/.local/share/nvim/site/pack/packer/start/vim-closer",
+    url = "https://github.com/rstacruz/vim-closer"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/lukaseder/.local/share/nvim/site/pack/packer/start/vim-fugitive",

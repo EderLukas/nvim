@@ -39,4 +39,6 @@ return require('packer').startup(function(use)
 		}
 	}
 
+	use ('rstacruz/vim-closer')
+
 end)
