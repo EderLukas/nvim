@@ -41,4 +41,8 @@ return require('packer').startup(function(use)
 
 	use ('rstacruz/vim-closer')
 
+	use ('lewis6991/gitsigns.nvim')
+
+	use ('christoomey/vim-tmux-navigator')
+
 end)
