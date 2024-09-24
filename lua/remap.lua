@@ -1,6 +1,5 @@
 vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>fe', vim.cmd.Explore)
-vim.keymap.set('n', '<leader>pac', vim.cmd.PackerSync)
 vim.keymap.set('n', '<leader>t', vim.cmd.term)
 
 vim.keymap.set('n', '<leader>f', '10l')
