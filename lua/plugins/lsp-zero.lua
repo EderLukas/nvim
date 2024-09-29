@@ -4,18 +4,7 @@ return {
     branch = 'v4.x',
     lazy = true,
     config = false,
-  },
-  {
-    'williamboman/mason.nvim',
-		 dependencies = {
-		"williamboman/mason-lspconfig.nvim",
-    "WhoIsSethDaniel/mason-tool-installer.nvim",
-		},
-    lazy = false,
-    config = true,
-  },
-
-  -- Autocompletion
+  },  -- Autocompletion
   {
     'hrsh7th/nvim-cmp',
     event = 'InsertEnter',
