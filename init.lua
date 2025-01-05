@@ -1,9 +1,9 @@
 vim.cmd("set number")
 vim.cmd("set autoindent")
-vim.cmd("set tabstop=2")
-vim.cmd("set shiftwidth=2")
+vim.cmd("set tabstop=4")
+vim.cmd("set shiftwidth=4")
 vim.cmd("set smarttab")
-vim.cmd("set softtabstop=2")
+vim.cmd("set softtabstop=4")
 vim.cmd("set mouse=a")
 vim.cmd("set termguicolors")
 vim.cmd("set scrolloff=8")
@@ -17,6 +17,10 @@ require("mason").setup({})
 require('dapui').setup()
 require('dap-go').setup()
 require('dap-python').setup("python")
+
+-- java setup
+require('java').setup()
+require('lspconfig').jdtls.setup({})
 
 -- load keybinds and theme
 require("remap")
