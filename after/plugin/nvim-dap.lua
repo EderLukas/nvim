@@ -4,7 +4,7 @@ require("dap").adapters.codelldb = {
 	port = 14001,
 	executable = {
 		command = "codelldb",
-		args =  { "--port", "${14001}" },
+		args =  { "--port", "${port}" },
 	},
 }
 
@@ -18,12 +18,5 @@ require("dap").configurations.cpp = {
 		end,
 		cwd = '${~/Code}',
 		stopOnEntry = false,
-	},
-	{
-		type = "codelldb",
-		request = "attach",
-		name = "Attach to process",
-		pid = require("dap.utils").pick_prcess,
-		cwd = "${~/Code}",
 	},
 }

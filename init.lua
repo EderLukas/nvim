@@ -7,6 +7,7 @@ vim.cmd("set softtabstop=4")
 vim.cmd("set mouse=a")
 vim.cmd("set termguicolors")
 vim.cmd("set scrolloff=8")
+vim.cmd("set relativenumber")
 vim.g.mapleader = " "
 
 -- load plugins
