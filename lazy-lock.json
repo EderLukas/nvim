@@ -1,5 +1,4 @@
 {
-  "Coqtail": { "branch": "main", "commit": "262e4cf3fe6a6564e536efb631ab9dd6994ebcd9" },
   "LuaSnip": { "branch": "master", "commit": "7d08b780201a4a7c9c117a3855492fdd6318380f" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "a8912b88ce488f411177fc8aed358b04dc246d7b" },
   "gitsigns.nvim": { "branch": "main", "commit": "7ce11abbb8b038a9de4fb6f75d8289c58d81aed7" },

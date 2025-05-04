@@ -78,6 +78,17 @@ return {
           end,
         }
       })
-    end
+
+	 -- manual registered LSPs
+	  local lspconfig = require('lspconfig')
+	  lspconfig.coq_lsp.setup({
+		cmd = { "coq_lsp" },
+		filetypes = { "coq" },
+		root_dir = lspconfig.util.root_pattern("_CoqProject", ".git"),
+		on_attach = lsp_attach,
+		capabilities = require('cmp_nvim_lsp').default_capabilities(),
+      })
+	end
   }
 }
+
