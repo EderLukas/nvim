@@ -20,8 +20,7 @@ require('dap-go').setup()
 require('dap-python').setup("python")
 
 -- java setup
-require('java').setup()
-require('lspconfig').jdtls.setup({})
+-- require('lspconfig').jdtls.setup({})
 
 -- load keybinds and theme
 require("remap")
